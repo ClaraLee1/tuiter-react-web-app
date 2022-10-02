@@ -1,0 +1,94 @@
+.title {
+    color: white;
+    font-size: 20px;
+}
+
+.handle {
+    color: lightgrey;
+    font-size: 13px;
+}
+
+.page {
+    padding-bottom: 12px;
+    padding-left: 16px;
+}
+
+.top-bar {
+    border-bottom: 1px solid darkgray;
+}
+
+
+.subtitle {
+    font-weight: bold;
+}
+
+.username, .post-date {
+    color: lightgrey;
+}
+
+.post {
+    display: flex;
+    gap: 14px;
+    font-size: 15px;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.post img {
+    border-radius: 50%;
+}
+
+.main-content {
+    max-width: 506px;
+    padding-top: 5px;
+}
+
+.main-content img {
+    border-radius: inherit;
+}
+
+.rounded-corners-pic {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 504px;
+    height: 264px;
+    border: 1px solid darkgray;
+}
+
+.captioned-pic {
+    /* border-radius: 12px; */
+    margin-top: 12px;
+    /* border: 1px solid darkgray; */
+}
+
+.caption {
+    font-size: 15px;
+    padding: 12px;
+    border: 1px solid darkgray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.body, .link {
+    color: lightgrey;
+}
+
+.interaction {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    padding-top: 12px;
+}
+
+.numbered-icon {
+    display: flex;
+    gap: 12px;
+    color: lightgrey;
+}
+
+.selected {
+    color: red;
+}
