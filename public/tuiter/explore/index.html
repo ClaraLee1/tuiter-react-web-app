@@ -14,55 +14,55 @@
     <div class="container">
         <div class="row m-2">
             <div class="col-2 col-sm-1 col-md-2 col-lg-1 col-xl-2 col-xxl-2">
-                <nav class="list-group rounded">
+                <div class="list-group">
                   <a href="#" class="list-group-item list-group-item-action">
                     <i class="fa-brands fa-twitter"></i>
                   </a>
-                  <a href="#" class="list-group-item list-group-item">
+                  <a href="#" class="list-group-item list-group-item-action">
                     <i class="fa-solid fa-house-chimney pe-2 float-start pt-1"></i>
                     <span class="d-none d-xl-block position-relative float-start">Home</span></a>
                   <a href="#" class="list-group-item list-group-item active">
                     <i class="fa-solid fa-hashtag pe-2 float-start pt-1"></i>
                     <span class="d-none d-xl-block position-relative float-start">Explore</span>
                   </a>
-                  <a href="#" class="list-group-item list-group-item">
+                  <a href="#" class="list-group-item list-group-item-action">
                     <i class="fa-solid fa-bell pe-2 float-start pt-1"></i>
                     <span class="d-none d-xl-block position-relative float-start">Notification</span>
                   </a>
-                  <a href="#" class="list-group-item list-group-item">
+                  <a href="#" class="list-group-item list-group-item-action">
                     <i class="fa-solid fa-envelope pe-2 float-start pt-1"></i>
                     <span class="d-none d-xl-block position-relative float-start">Messages</span>
                   </a>
-                  <a href="#" class="list-group-item list-group-item">
+                  <a href="#" class="list-group-item list-group-item-action">
                     <i class="fa-solid fa-bookmark pe-2 float-start pt-1"></i>
                     <span class="d-none d-xl-block position-relative float-start">Bookmarks</span>
                   </a>
-                  <a href="#" class="list-group-item list-group-item">
+                  <a href="#" class="list-group-item list-group-item-action">
                     <i class="fa-solid fa-list-ul pe-2 float-start pt-1"></i>
                     <span class="d-none d-xl-block position-relative float-start">List</span>
                   </a>
-                  <a href="#" class="list-group-item list-group-item">
+                  <a href="#" class="list-group-item list-group-item-action">
                     <i class="fa-solid fa-user pe-2 float-start pt-1"></i>
                     <span class="d-none d-xl-block position-relative float-start">Profile</span>
                   </a>
-                  <a href="#" class="list-group-item list-group-item rounded-bottom">
+                  <a href="#" class="list-group-item list-group-item-action rounded-bottom">
                     <i class="fa-solid fa-circle-info pe-2 float-start pt-1"></i>
                     <span class="d-none d-xl-block position-relative float-start">More</span>
                   </a>
-                  <button type="button" class="btn btn-primary mt-1 rounded-pill">Tweet</button>
-                </nav>
+                  <button type="button" class="btn btn-primary mt-1 rounded-pill">Tweet</button>   
+                </div>
             </div>
 
         <div class="col-6 col-sm-7 col-md-6 col-lg-7 col-xl-7 col-xxl-7">
-            <div class="row">
-                <div class="col-10 position-relative">
-                    <i class="fa-solid fa-magnifying-glass position-absolute p-2 m-1"></i>
-                    <input class="ps-5 form-control rounded-pill" placeholder="Search Tuiter" type="text"/>
+            <div class="d-flex align-items-center mb-2">
+                <div class="rounded-pill input-group wd-searchbar align-items-center me-3">
+                    <i class="fa fa-search ms-3"></i>
+                    <input class="input-group-text override" placeholder="Search Tuiter">
                 </div>
-                <div class="col-2">
-                    <a href="explore_settings.html"><i class="fa-solid fa-gear fa-2x pt-1"></i></a>
-                </div>
+                <a href="explore-settings.html"><i class="fa fa-cog fa-2x"></i></a>
             </div>
+
+
             <ul class="nav nav-tabs mt-1">
                 <li class="nav-item">
                     <a class="nav-link active" href="#">For you</a>
@@ -80,10 +80,11 @@
                     <a class="nav-link" href="#">Entertainment</a>
                 </li>
             </ul>
+            
             <main>
             <div class="position-relative mt-2">
                 <img src="../../images/starship.jpg" width="100%">
-                <h1 class="wd-image-description text-white position-absolute bottom-0">SpaceX's Starship</h1>
+                <h1 class="wd-image-description text-white position-absolute bottom-0 ">SpaceX's Starship</h1>
             </div>
 
             <ul class="list-group">
@@ -158,7 +159,7 @@
                 </div>
                 <div class="col-7">
                     <span class="fw-bold text-black">Relativity Space<i class="fa-solid fa-circle-check text-black ps-2"></i></span>
-                    <div class="wd-handle text-secondary">@relativityspace</div>
+                    <div class="wd-handle text-secondary small">@relativityspace</div>
                 </div>
                 <div class="col-3 mt-1">
                     <button type="button" class="btn btn-primary rounded-pill float-end">Follow</button>

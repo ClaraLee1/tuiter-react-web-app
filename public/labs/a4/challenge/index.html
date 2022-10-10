@@ -14,34 +14,50 @@
 <div class="container">
     <div class="row ms-1 ms-xxl-4 ms-xl-4">
 
-<!--left-->
-        <div class="col-xxl-2 col-xl-2 col-lg-1 col-md-2 col-sm-2 col-2 d-flex flex-column flex-shrink-0 p-3 text-white">
+        <div class="col-xxl-2 col-xl-2 col-lg-1 col-md-2 col-sm-2 col-2 d-flex flex-column p-2">
             <ul class="nav flex-column mb-3 mb-sm-0">
-                <li class="nav-item"><i class="fab fa-t nav-link" style="color: white"></i></li>
                 <li class="nav-item">
-                    <a class="nav-link"  href="#" style="color: white"><i class="fas fa-home " style="color: white; padding-right: 10px;">
-                    </i><span class="d-none d-xxl-inline-block d-xl-inline-block "> Home</span></a>
+                    <i class="fab fa-t nav-link" style="color: white"></i>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fw-bold" aria-current="page" href="#" style="color: white"><i class="fas fa-hashtag" style="color: white; padding-right: 10px;"></i><span class="d-none d-xxl-inline-block d-xl-inline-block "> Explore</span></a>
+                    <a class="nav-link fw-light"  href="#" style="color: white">
+                    <i class="fas fa-home " style="color: white; padding-right: 10px;"></i>
+                    <span class="d-none d-xxl-inline-block d-xl-inline-block">Home</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: white"> <i class="fas fa-bell" style="color: white; padding-right: 10px;"></i><span class="d-none d-xxl-inline-block d-xl-inline-block "> Notifications</span></a>
+                    <a class="nav-link fw-bold" aria-current="page" href="#" style="color: white">
+                    <i class="fas fa-hashtag" style="color: white; padding-right: 10px;"></i>
+                    <span class="d-none d-xxl-inline-block d-xl-inline-block ">Explore</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: white"> <i class="fas fa-envelope" style="color: white; padding-right: 10px;"></i><span class="d-none d-xxl-inline-block d-xl-inline-block "> Messages</span></a>
+                    <a class="nav-link fw-light" href="#" style="color: white"> 
+                    <i class="fas fa-bell" style="color: white; padding-right: 10px;"></i>
+                    <span class="d-none d-xxl-inline-block d-xl-inline-block">Notifications</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: white"> <i class="fas fa-bookmark" style="color: white; padding-right: 10px;"></i><span class="d-none d-xxl-inline-block d-xl-inline-block "> Bookmarks</span></a>
+                    <a class="nav-link" href="#" style="color: white"> 
+                    <i class="fas fa-envelope" style="color: white; padding-right: 10px;"></i>
+                    <span class="d-none d-xxl-inline-block d-xl-inline-block">Messages</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: white"><i class="fa-solid fa-list-ul pe-2 float-start pt-1"></i>Lists</span></a>
+                    <a class="nav-link" href="#" style="color: white"> 
+                    <i class="fas fa-bookmark" style="color: white; padding-right: 10px;"></i>
+                    <span class="d-none d-xxl-inline-block d-xl-inline-block">Bookmarks</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: white"><i class="fa-solid fa-user pe-2 float-start pt-1"></i>Profile</span></a>
+                    <a class="nav-link" href="#" style="color: white">
+                    <i class="fa-solid fa-list-ul pe-2 float-start pt-1"></i>
+                    <span class="d-none d-xxl-inline-block d-xl-inline-block">Lists</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: white"> <i class="fa-solid fa-circle-info pe-2 float-start pt-1"></i><span class="d-none d-xxl-inline-block d-xl-inline-block"> More</span></a>
+                    <a class="nav-link" href="#" style="color: white">
+                    <i class="fa-solid fa-user pe-2 float-start pt-1"></i>
+                    <span class="d-none d-xxl-inline-block d-xl-inline-block">Profile</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: white"> 
+                    <i class="fa-solid fa-circle-info pe-2 float-start pt-1"></i>
+                    <span class="d-none d-xxl-inline-block d-xl-inline-block">More</span></a>
                 </li>
             </ul>
             <button type="button" class="btn btn-primary mt-1 rounded-pill">Tweet</button>
@@ -49,8 +65,34 @@
 
 
 <!--middle-->
-        <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-9 col-sm-10 col-10 ms-0 ms-md-4 pb-3" style="padding-top: 5px;border-color:  rgb(47, 51, 54);border-width: 1px;border-style: solid;">
-            <!--searchbar-->
+<div class="col-6 col-sm-7 col-md-6 col-lg-7 col-xl-7 col-xxl-7">
+                <div class="row">
+                <div class="col-10 position-relative">
+                    <i class="fa-solid fa-magnifying-glass position-absolute p-2 m-1"></i>
+                    <input class="ps-5 form-control rounded-pill" placeholder="Search Tuiter" type="text"/>
+                </div>
+                <div class="col-2">
+                    <a href="explore_settings.html"><i class="fa-solid fa-gear fa-2x pt-1"></i></a>
+                </div>
+            </div>
+            <ul class="nav nav-tabs mt-1">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">For you</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sports</a>
+                </li>
+                <li class="nav-item d-none d-md-block">
+                    <a class="nav-link" href="#">Entertainment</a>
+                </li>
+            </ul>
+            <!-- searchbar
             <div class="row"><div class="col-11">
             <div class="position-relative mt-1">
                 <span class="wd-search-tuiter position-absolute"><i class="fa-solid fa-magnifying-glass position-absolute p-2 m-1"></i></span>
@@ -58,7 +100,7 @@
             </div></div>
             <div class="col-1"><span><a class="wd-gear" href="explore-settings.html"><i class="fa-solid fa-gear mt-3" style="color: white"></i></a></span></div>
             </div>
-            <!--tabs-->
+            tabs
             <div class="row">
                 <ul class="nav nav-tabs nav-fill mb-2" style="border-color: rgb(110, 118, 125);">
                     <li class="nav-item">
@@ -80,7 +122,7 @@
                         <a class="nav-link d-none d-xxl-block d-xl-block d-lg-block d-md-block" aria-current="page" href="#" style="color: white;width: 120px;font-weight: bold; background-color: black; border: none; border-bottom: rgb(29, 161, 242) solid 5px">Entertainment</a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
             <div class="row">
                 <img src="../../../images/starship.jpg" class="img-responsive">
             </div>
