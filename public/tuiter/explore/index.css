@@ -11,8 +11,3 @@
     object-fit: cover;
     flex: 1;
 }
-
-.wd-searchbar {
-    position: absolute;
-    border: 1px solid lightgray;
-}

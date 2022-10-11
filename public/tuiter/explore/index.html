@@ -53,17 +53,24 @@
                 </div>
             </div>
 
-        <div class="col-6 col-sm-7 col-md-6 col-lg-7 col-xl-7 col-xxl-7">
-            <div class="d-flex align-items-center mb-2">
-                <div class="rounded-pill input-group wd-searchbar align-items-center me-3">
-                    <i class="fa fa-search ms-3"></i>
-                    <input class="input-group-text override" placeholder="Search Tuiter">
+        <div class="col-6 col-sm-7 col-md-6 col-lg-7 col-xl-7 col-xxl-7 ">
+            <div class="row">
+                <div class="col-11">
+                    <div class="position-relative">
+                        <span class="wd-search-tuiter position-absolute">
+                            <i class="fa-solid fa-magnifying-glass position-absolute p-2 m-1"></i>
+                        </span>
+                        <input class="ps-5 form-control rounded-pill" placeholder="Search Tuiter" type="text"/>
+                    </div>
                 </div>
-                <a href="explore-settings.html"><i class="fa fa-cog fa-2x"></i></a>
+                <div class="col-1">
+                    <span><a class="wd-gear" href="explore-settings.html">
+                        <i class="fa-solid fa-gear fa-2x pt-2"></i></a>
+                    </span>
+                </div>
             </div>
 
-
-            <ul class="nav nav-tabs mt-1">
+            <ul class="nav nav-tabs mt-1 nav-fill">
                 <li class="nav-item">
                     <a class="nav-link active" href="#">For you</a>
                 </li>
@@ -84,7 +91,7 @@
             <main>
             <div class="position-relative mt-2">
                 <img src="../../images/starship.jpg" width="100%">
-                <h1 class="wd-image-description text-white position-absolute bottom-0 ">SpaceX's Starship</h1>
+                <h1 class="wd-image-description text-white position-absolute bottom-0">SpaceX's Starship</h1>
             </div>
 
             <ul class="list-group">
@@ -200,7 +207,6 @@
                 <div class="col-3 mt-1">
                 <button type="button" class="btn btn-primary rounded-pill float-end">Follow</button>
                 </div>
-            </div>
             </div>
         </div>
     </div>
