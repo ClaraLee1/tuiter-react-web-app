@@ -12,7 +12,7 @@ const PostItem = (post) => {
                 <div class="text-white fw-bolder fs-6 my-1">${post.userName} <i class="fa fa-check-circle"></i> <span class="text-secondary fw-normal"> @${post.handle} • ${post.time}</span><span class="text-secondary float-end">•••</span></div>
                 <div class="text-white my-1">${post.comment}</div>
                 <div class="rounded-3 border border-secondary">
-                    <img src=${post.postImg} class="rounded-2 " width="100%">
+                    <img src=${post.postImg} class="rounded-corners" width="100%">
                     <div class="border-top border-secondary">
                         <div class="fw-normal px-2 my-1">${post.title}</div>
                         <div class="text-secondary px-2">${post.content}</div>

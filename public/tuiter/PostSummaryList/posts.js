@@ -13,15 +13,15 @@ export default [
         time: '1 day',
         title: 'JavaScript is programming language that can run on browsers as well as desktops',
         image: '../../images/javascript.png',
-        tweets: '123K',
+        tweets: '',
     },
     {
         topic: 'Web Development',
-        userName: '',
-        title: 'jQuery',
+        userName: 'jQuery',
         time: 'last week',
+        title:'',
         image: '../../images/jquery.png',
-        tweets: '122K',
+        tweets: '',
     },
     {
         topic: 'Web Development',
@@ -29,5 +29,5 @@ export default [
         title: '',
         time: 'last month',
         image: '../../images/nodejs.png',
-        tweets: '120K',
+        tweets: '',
     },];

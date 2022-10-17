@@ -1,4 +1,4 @@
-import posts from "./posts.js";
+import post from "./posts.js";
 
 const PostSummaryItem = (post) => {
     return(`
@@ -10,7 +10,7 @@ const PostSummaryItem = (post) => {
                 <div class="fw-bolder">${post.title}</div>
                 <div class="text-secondary">${post.tweets}</div>
             </div>
-            <div class="col col-3 mx-auto my-auto"><img class="float-end rounded-3" height="90px" src=${post.image}></div>
+            <div class="col col-3"><img class="float-end rounded" height="90px" src=${post.image}></div>
         </div>
     </li>
     `);
