@@ -1,0 +1,29 @@
+[
+    {   "_id": 123,
+        "userName": "SpaceX",
+        "handle": "SpaceX",
+        "time": "23h",
+        "comment": "Dennis and Akkiko Tiro are the first two crewmembers on Starship's second commercial spaceflight",
+        "title": "Countdown: Insporation4 Mission to Space | Netflix Offical Space",
+        "content": "From training to lauch to landing, this all-access docuseries rides along with the inspiration4 crew on the first all-cilcilian orbital space.",
+        "profileImg": "../../images/nodejs.png",
+        "postImg": "../../images/netflix.jpg",
+        "likes": "37.5K",
+        "comments": "4.2K",
+        "tweets": "3.5K"
+    },
+    {
+        "_id": 234,
+        "userName": "New York Post",
+        "handle": "nypost",
+        "time": "17h",
+        "comment": "Grimes seen reading Karl Marx following split with worlds richest man Elon Musk",
+        "title":"",
+        "content":"We might need a different name, as this is basically just Starlink with roaming capability",
+        "profileImg": "../../images/tesla.jpeg",
+        "postImg": "../../images/grimes.jpg",
+        "likes": "4K",
+        "comments": "965",
+        "tweets": "2.4K"
+    }
+]
