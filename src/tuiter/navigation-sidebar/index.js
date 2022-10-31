@@ -9,10 +9,12 @@ const NavigationSidebar = () => {
     return (
         <div className="list-group">
             <a href="index.js" className="list-group-item">Tuiter</a>
-            <Link to="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
+            <Link to="/tuiter/home" className={`list-group-item 
+                    ${active === 'home'?'active':''}`}>
                 Home
             </Link>
-            <Link to="/tuiter/explore" className={`list-group-item ${active === 'explore'?'active':''}`}>
+            <Link to="/tuiter/explore" className={`list-group-item 
+                    ${active === 'explore'?'active':''}`}>
                 Explore
             </Link>
             <Link to="/" className="list-group-item">
@@ -34,10 +36,10 @@ const NavigationSidebar = () => {
                     ${active === 'lists'?'active':''}`}>
                 Lists
             </a>
-            <a href="index.js" className={`list-group-item
+            <Link to="/tuiter/profile" className={`list-group-item
                     ${active === 'profile'?'active':''}`}>
                 Profile
-            </a>
+            </Link>
             <a href="index.js" className={`list-group-item
                     ${active === 'more'?'active':''}`}>
                 More

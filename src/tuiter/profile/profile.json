@@ -1,0 +1,15 @@
+{
+    "firstName": "Clara",
+    "lastName": "Lee",
+    "name": "Clara Lee",
+    "handle": "@ClaraLee1",
+    "profilePicture": "react.png",
+    "bannerPicture": "background-profile.jpg",
+    "bio": "STEMinist.",
+    "website": "youtube.com/webdevtv",
+    "location": "Sunnyvale, CA",
+    "dateOfBirth": "07/07/2020",
+    "dateJoined": "April, 2009",
+    "followingCount": 340,
+    "followersCount": 223
+  }
