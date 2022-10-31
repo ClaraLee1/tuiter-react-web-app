@@ -38,7 +38,7 @@ const ProfileComponent = () => {
                 <div className="text-secondary mt-3">
                     <i className="bi bi-geo-alt"></i><span>{profile.location}</span>
                     <i className="bi bi-balloon ps-2"></i><span>Born {profile.dateOfBirth}</span>
-                    <i className="bi bi-calendar3 ps-2"></i><span>Joined {profile.dateJoined}</span>
+                    <i className="bi bi-calendar3 ps-2"></i><span>Joined{profile.dateJoined}</span>
                 </div>
                 <div className="mt-3">
                     <span class="fw-bold">{profile.followingCount}</span> <span class="text-secondary">Following</span>
